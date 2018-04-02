@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <SplitPane fx:id="splitPane" dividerPositions="0.5612472160356348" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="500.0" SplitPane.resizableWithParent="false">
+               <children>
+                  <ListView fx:id="serverListView" editable="true" fixedCellSize="30.0" layoutX="12.0" layoutY="438.0" prefHeight="219.0" prefWidth="282.0" />
+                  <ListView fx:id="listViewQueueShips" layoutX="337.0" layoutY="438.0" prefHeight="219.0" prefWidth="150.0" />
+                  <Label layoutX="14.0" layoutY="415.0" prefHeight="22.0" prefWidth="168.0" text="Warehouse" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="337.0" layoutY="415.0" prefHeight="22.0" prefWidth="150.0" text="Queue" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="serverTableView" editable="true" fixedCellSize="40.0" layoutX="140.0" layoutY="149.0" prefHeight="242.0" prefWidth="350.0">
+                    <columns>
+                      <TableColumn fx:id="serverTableNumberColumn" editable="false" prefWidth="59.19998073577881" resizable="false" sortable="false" text="Line sign" />
+                      <TableColumn fx:id="serverTableStatusColumn" editable="false" prefWidth="61.599998474121094" resizable="false" text="Status" />
+                        <TableColumn fx:id="serverTableShipNameColumn" editable="false" prefWidth="122.40003967285156" resizable="false" text="Ship name" />
+                        <TableColumn fx:id="serverTableGoodsColumn" editable="false" prefWidth="91.199951171875" resizable="false" text="Goods" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <Label layoutX="12.0" layoutY="144.0" prefHeight="27.0" prefWidth="120.0" text="Mooring lines" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="addLineButton" layoutX="12.0" layoutY="200.0" mnemonicParsing="false" onAction="#pressedAddLineButton" prefHeight="26.0" prefWidth="120.0" text="Add" />
+                  <Button fx:id="deleteLineButton" layoutX="12.0" layoutY="226.0" mnemonicParsing="false" onAction="#pressedDeleteLineButton" prefHeight="26.0" prefWidth="120.0" text="Delete" />
+                  <Button fx:id="sendBackButton" layoutX="12.0" layoutY="363.0" mnemonicParsing="false" onAction="#pressedSendBackButton" prefHeight="26.0" prefWidth="120.0" text="Send back " />
+                  <Button layoutX="12.0" layoutY="283.0" mnemonicParsing="false" onAction="#pressedGetButton" prefHeight="26.0" prefWidth="120.0" text="Get" />
+                  <Button layoutX="12.0" layoutY="309.0" mnemonicParsing="false" onAction="#pressedSetButton" prefHeight="26.0" prefWidth="120.0" text="Set" />
+                  <Button fx:id="sendBackShipQueueButton" layoutX="337.0" layoutY="664.0" mnemonicParsing="false" onAction="#pressedSendBackShipQueueButton" prefHeight="26.0" prefWidth="150.0" text="Send back" />
+                  <Separator layoutX="-1.0" layoutY="397.0" prefHeight="3.0" prefWidth="502.0" />
+                  <Separator layoutX="311.0" layoutY="398.0" orientation="VERTICAL" prefHeight="304.0" prefWidth="1.0" />
+                  <Label layoutX="12.0" layoutY="180.0" prefHeight="20.0" prefWidth="120.0" text="  Line">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="12.0" layoutY="265.0" prefHeight="20.0" prefWidth="120.0" text="  Goods">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="12.0" layoutY="345.0" prefHeight="20.0" prefWidth="120.0" text="  Ship">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="-2.0" layoutY="141.0" prefHeight="3.0" prefWidth="502.0" />
+                  <Text layoutX="12.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port" wrappingWidth="119.99999284744263">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <TextArea fx:id="serverTerminal" editable="false" layoutX="139.0" layoutY="8.0" prefHeight="124.0" prefWidth="350.0" text="//client terminal//" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="NONE" />
+                     </cursor>
+                     <font>
+                        <Font name="Courier New" size="10.0" />
+                     </font>
+                  </TextArea>
+                  <Button layoutX="14.0" layoutY="664.0" mnemonicParsing="false" onAction="#pressedSaveWarehouseButton" prefHeight="26.0" prefWidth="120.0" text="Save" />
+                  <Button layoutX="242.0" layoutY="410.0" mnemonicParsing="false" onAction="#pressedServerSortButton" prefHeight="18.0" prefWidth="52.0" text="Sort" />
+                  <Button layoutX="175.0" layoutY="664.0" mnemonicParsing="false" onAction="#pressedServerDeleteButton" prefHeight="26.0" prefWidth="120.0" text="Delete" />
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="390.0">
+               <children>
+                  <Button fx:id="clientSendButton" layoutX="20.0" layoutY="149.0" mnemonicParsing="false" onAction="#pressedClientSendButton" prefHeight="26.0" prefWidth="186.0" text="Send" />
+                  <TextField fx:id="clientTextField" layoutX="17.0" layoutY="242.0" onAction="#pressedClientSendButton" prefHeight="26.0" prefWidth="114.0" />
+                  <Label layoutX="144.0" layoutY="418.0" prefHeight="22.0" prefWidth="76.0" text="Ship park" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="addShipButton" layoutX="15.0" layoutY="475.0" mnemonicParsing="false" onAction="#pressedAddShipButton" prefHeight="26.0" prefWidth="120.0" text="Add" />
+                  <Label layoutX="15.0" layoutY="418.0" prefHeight="26.0" prefWidth="118.0" text="Enter a name:" textAlignment="CENTER" />
+                  <Button fx:id="deleteShipButton" layoutX="15.0" layoutY="508.0" mnemonicParsing="false" onAction="#pressedDeleteShipButton" prefHeight="26.0" prefWidth="120.0" text="Delete" />
+                  <Label layoutX="219.0" layoutY="144.0" prefHeight="35.0" prefWidth="150.0" text="Ship manager" textAlignment="RIGHT">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="clientTextFieldShip" layoutX="15.0" layoutY="441.0" onAction="#pressedAddShipButton" prefHeight="26.0" prefWidth="120.0" />
+                  <TextArea fx:id="clientTerminal" editable="false" layoutX="20.0" layoutY="7.0" prefHeight="124.0" prefWidth="350.0" text="//client terminal//" wrapText="true">
+                     <cursor>
+                        <Cursor fx:constant="NONE" />
+                     </cursor>
+                     <font>
+                        <Font name="Courier New" size="10.0" />
+                     </font>
+                  </TextArea>
+                  <Separator layoutX="1.0" layoutY="397.0" prefHeight="3.0" prefWidth="390.0" />
+                  <ListView fx:id="clientListView" layoutX="144.0" layoutY="441.0" prefHeight="250.0" prefWidth="233.0" />
+                  <Label layoutX="17.0" layoutY="224.0" prefHeight="18.0" prefWidth="86.0" text="Enter a name:" textAlignment="CENTER" />
+                  <Button fx:id="saveShipButton" layoutX="15.0" layoutY="664.0" mnemonicParsing="false" onAction="#pressedSaveShipButton" prefHeight="26.0" prefWidth="120.0" text="Save" />
+                  <Button fx:id="clientSortButton" layoutX="325.0" layoutY="412.0" mnemonicParsing="false" onAction="#pressedClientSortButton" prefHeight="25.0" prefWidth="52.0" text="Sort" />
+                  <ListView fx:id="clientListViewWarehouse" layoutX="143.0" layoutY="242.0" prefHeight="148.0" prefWidth="234.0" />
+                  <Label layoutX="106.0" layoutY="179.0" prefHeight="18.0" prefWidth="262.0" text="Select ship and good and then press this to send" textAlignment="CENTER" />
+                  <Button layoutX="18.0" layoutY="275.0" mnemonicParsing="false" onAction="#pressedAddGoodsButton" prefHeight="26.0" prefWidth="114.0" text="Add" />
+                  <Button layoutX="18.0" layoutY="309.0" mnemonicParsing="false" onAction="#pressedDeleteGoodsButton" prefHeight="20.0" prefWidth="114.0" text="Delete" />
+                  <Button layoutX="325.0" layoutY="212.0" mnemonicParsing="false" onAction="#pressedSortGoodsButton" prefHeight="25.0" prefWidth="52.0" text="Sort" />
+                  <Label layoutX="144.0" layoutY="217.0" prefHeight="18.0" prefWidth="76.0" text="Goods" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="20.0" layoutY="175.0" mnemonicParsing="false" onAction="#pressedClientSendAutoButton" prefHeight="26.0" prefWidth="76.0" text="Send auto" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

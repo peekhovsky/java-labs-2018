@@ -1,0 +1,44 @@
+
+Folder
+Photos
+File
+C:\Users\rosti\Desktop\Files for explorer\2055.jpg
+File
+C:\Users\rosti\Desktop\Files for explorer\Photo1.jpg
+File
+C:\Users\rosti\Desktop\Files for explorer\AppleSierra.jpg
+EndFolder
+Folder
+Documents
+File
+C:\Users\rosti\Downloads\laba2.asm
+File
+C:\Users\rosti\Downloads\SteamSetup.exe
+File
+C:\Users\rosti\Desktop\Half-Life 2.url
+EndFolder
+Folder
+Books
+File
+C:\Users\rosti\Dropbox\Programming\Computer Architecture\ENG Computer Architecture (Hennessy, Fifth Edition).pdf
+File
+C:\Users\rosti\Dropbox\Programming\Java\ENG Thinking in Java (Bruce Eckel).pdf
+File
+C:\Users\rosti\Dropbox\Programming\С & C++\ENG The C Programming Language  (Kernighan, Ritchie).pdf
+File
+C:\Users\rosti\Dropbox\Programming\С & C++\RU Основы алгоритмизации и программирования (Луцик).pdf
+EndFolder
+Folder
+Literature
+File
+C:\Users\rosti\Dropbox\Philosophy & Humanistic Subjects\Political philopsophy topics 2018.pdf
+File
+C:\Users\rosti\Dropbox\Univ. files\Military training\Стороевой устав Вооруженных Сил Республики Беларусь.pdf
+File
+C:\Users\rosti\Desktop\type-search-index.zip
+EndFolder
+Folder
+Videos
+File
+C:\Users\rosti\Downloads\Massive Attack, Young Fathers - Voodoo In My Blood.mp4
+EndFolder

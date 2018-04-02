@@ -1,0 +1,11 @@
+Diamonds
+Potatoes
+Tomatoes
+Bananas
+Weapon
+Drugs
+Guitars
+Gold
+Silver
+Steal
+Coal
