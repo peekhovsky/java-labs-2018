@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Catalogue>
+    <Person>
+        <GivenName>Rostislav</GivenName>
+        <MiddleName>Viktaravich</MiddleName>
+        <Surname>Pekhovsky</Surname>
+        <DateOfBirth>12.11.1998</DateOfBirth>
+        <CellPhone>+375293581010</CellPhone>
+        <Experience>Team Lead С++ Developer in Microsoft</Experience>
+    </Person>
+    <Person>
+        <GivenName>Vesna</GivenName>
+        <MiddleName>Eduardovna</MiddleName>
+        <Surname>Pekhovskaya</Surname>
+        <DateOfBirth>12.08.1999</DateOfBirth>
+        <CellPhone>+37529358989</CellPhone>
+        <Experience>Senior Pearl/PHP Developer in Itransition</Experience>
+    </Person>
+</Catalogue>

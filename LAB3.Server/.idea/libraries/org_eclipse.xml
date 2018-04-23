@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.eclipse">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../org.eclipse.swt" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../org.eclipse.swt" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../org.eclipse.swt" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../org.eclipse.swt" recursive="false" type="SOURCES" />
+  </library>
+</component>

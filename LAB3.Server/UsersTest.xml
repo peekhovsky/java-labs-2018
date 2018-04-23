@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UserList lastId="4">
+    <Person>
+        <id>1</id>
+        <Login>pekh</Login>
+        <HashPassword>8d296936ef0ebee2572aa8e00862abc8</HashPassword>
+        <AccessTag>add</AccessTag>
+        <AccessTag>delete</AccessTag>
+        <AccessTag>send</AccessTag>
+        <AccessTag>watch</AccessTag>
+        <AccessTag>save</AccessTag>
+        <AccessTag>adduser</AccessTag>
+    </Person>
+    <Person>
+        <id>2</id>
+        <Login>rock</Login>
+        <HashPassword>2801671aeeefa6235c3d3f2c81aefa83</HashPassword>
+        <AccessTag>watch</AccessTag>
+    </Person>
+</UserList>

@@ -1,0 +1,1 @@
+java -jar LAB3.Server.jar

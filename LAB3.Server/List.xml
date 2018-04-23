@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Catalogue lastId="7">
+    <Person>
+        <id>1</id>
+        <GivenName>Rostislav</GivenName>
+        <MiddleName>Viktaravich</MiddleName>
+        <Surname>Rot</Surname>
+        <DateOfBirth>12.11.1998</DateOfBirth>
+        <CellPhone>+375293581010</CellPhone>
+        <Experience>Team Lead С++ Developer in Microsoft</Experience>
+        <Skill>C/C++</Skill>
+        <Skill>Artificial intelligence</Skill>
+        <Skill>F#</Skill>
+    </Person>
+    <Person>
+        <id>2</id>
+        <GivenName>Vesna</GivenName>
+        <MiddleName>Eduardovna</MiddleName>
+        <Surname>Pekhovskaya</Surname>
+        <DateOfBirth>12.08.1999</DateOfBirth>
+        <CellPhone>+37529358989</CellPhone>
+        <Experience>Senior Pearl/PHP Developer in Itransition</Experience>
+        <Skill>Pearl</Skill>
+        <Skill>PHP</Skill>
+        <Skill>Fortran</Skill>
+    </Person>
+    <Person>
+        <id>3</id>
+        <GivenName>Nastya</GivenName>
+        <MiddleName>Alexandrovna</MiddleName>
+        <Surname>Orlova</Surname>
+        <DateOfBirth>30.03.2000</DateOfBirth>
+        <CellPhone>+375293456543</CellPhone>
+        <Experience>Java dev in Epam</Experience>
+        <Skill>Java</Skill>
+        <Skill>Java Android</Skill>
+    </Person>
+    <Person>
+        <id>4</id>
+        <GivenName>Michael</GivenName>
+        <MiddleName>Tigranovich</MiddleName>
+        <Surname>Agasaryan</Surname>
+        <DateOfBirth>30.08.1999</DateOfBirth>
+        <CellPhone>+34343343343</CellPhone>
+        <Experience>Rock</Experience>
+        <Skill>C++</Skill>
+    </Person>
+    <Person>
+        <id>5</id>
+        <GivenName>Egor</GivenName>
+        <MiddleName>Sergeevich</MiddleName>
+        <Surname>Ptashnik</Surname>
+        <DateOfBirth>20.03.1998</DateOfBirth>
+        <CellPhone>+3435452222</CellPhone>
+        <Experience>Super developer in ITransition</Experience>
+        <Skill>Perl</Skill>
+    </Person>
+    <Person>
+        <id>6</id>
+        <GivenName>Vladislav</GivenName>
+        <MiddleName>Aleksandrovich</MiddleName>
+        <Surname>Migura</Surname>
+        <DateOfBirth>03.03.1999</DateOfBirth>
+        <CellPhone>+3435453422</CellPhone>
+        <Experience>Mega indian developer</Experience>
+        <Skill>Assembly</Skill>
+        <Skill>Basic</Skill>
+        <Skill>C</Skill>
+    </Person>
+    <Person>
+        <id>7</id>
+        <GivenName>Elizaveta</GivenName>
+        <MiddleName>Mihailovna</MiddleName>
+        <Surname>Wiezner</Surname>
+        <DateOfBirth>08.04.1999</DateOfBirth>
+        <CellPhone>+34354553422</CellPhone>
+        <Experience>Architect</Experience>
+        <Skill>Block of flats</Skill>
+    </Person>
+</Catalogue>
