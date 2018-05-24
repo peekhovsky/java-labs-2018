@@ -134,7 +134,7 @@
       <file leaf-file-name="ClientCore.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Harbour/client/ClientCore.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="2976">
               <caret line="137" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <marker date="1522484432685" expanded="true" signature="0:104" ph="/.../" />
@@ -159,14 +159,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Harbour/main/Main.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
-                <element signature="e#0#1406#0" expanded="true" />
+                <marker date="1522454082490" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1522454082490" expanded="false" signature="128:344" ph="..." />
+                <marker date="1522454082490" expanded="true" signature="440:447" ph="{}" />
+                <marker date="1522454082490" expanded="false" signature="471:482" ph=" { " />
+                <marker date="1522454082490" expanded="false" signature="528:534" ph=" }" />
+                <marker date="1522454082490" expanded="true" signature="559:643" ph="{...}" />
+                <marker date="1522454082490" expanded="true" signature="680:1329" ph="{...}" />
+                <marker date="1522454082490" expanded="false" signature="1373:1384" ph=" { " />
+                <marker date="1522454082490" expanded="false" signature="1397:1403" ph=" }" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,21 +246,6 @@
                 <element signature="e#3674#3675#0" expanded="true" />
                 <element signature="e#3860#3861#0" expanded="true" />
                 <element signature="e#3930#3931#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateRecorder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/StateRecorder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#run#0;class#StateRecorder#0" expanded="false" />
-                <element signature="e#3211#3212#0" expanded="true" />
-                <element signature="e#3242#3243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -347,9 +350,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,11 +359,41 @@
               <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
               <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB2.Harbour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2.Harbour" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -708,6 +740,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -971,13 +1004,13 @@
     <entry file="file://$USER_HOME$/Dropbox/Programming/Java/LAB1/src/main/java/com/explorer/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/test/ShipQueueTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="95" column="53" lean-forward="false" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/WarehouseRecorder.java">
@@ -1029,13 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ShipQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1061,14 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#1042#1043#0" expanded="false" />
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1193#1194#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,12 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#run#0;class#StateRecorder#0" expanded="false" />
-            <element signature="e#3211#3212#0" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,7 +1209,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Harbour/client/ClientCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="2976">
           <caret line="137" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <marker date="1522484432685" expanded="true" signature="0:104" ph="/.../" />
@@ -1223,11 +1235,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Harbour/main/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
-            <element signature="e#0#1406#0" expanded="true" />
+            <marker date="1522454082490" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1522454082490" expanded="false" signature="128:344" ph="..." />
+            <marker date="1522454082490" expanded="true" signature="440:447" ph="{}" />
+            <marker date="1522454082490" expanded="false" signature="471:482" ph=" { " />
+            <marker date="1522454082490" expanded="false" signature="528:534" ph=" }" />
+            <marker date="1522454082490" expanded="true" signature="559:643" ph="{...}" />
+            <marker date="1522454082490" expanded="true" signature="680:1329" ph="{...}" />
+            <marker date="1522454082490" expanded="false" signature="1373:1384" ph=" { " />
+            <marker date="1522454082490" expanded="false" signature="1397:1403" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

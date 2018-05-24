@@ -203,7 +203,6 @@ public class MainInterface {
 			if (!display.readAndDispatch()) {
 				display.sleep();
 			}
-
 		}
 		display.dispose();
 	}

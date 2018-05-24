@@ -7,7 +7,7 @@ import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.*;
 
-/**Starting point of client program*/
+/**Starting point of the client program*/
 public class Client {
 	public static void main(String[] args) {
 		new SignInInterface();

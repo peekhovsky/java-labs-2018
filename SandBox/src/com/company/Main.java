@@ -1,35 +1,44 @@
 package com.company;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.*;
-
 public class Main {
 
+    /* Создать абстрактный класс Фигура с абстрактным
+       методом вычислеия периметра. Описать 3-4 класса наследника.
+       Продемонстрировать в методе main работу классов. Для задания исп. классы-обертки, в качестве
+       полей наследников класса Фигура использовать доп. класс.*/
+
     public static void main(String[] args) {
-	// write your code here
 
-        Quadrilateral quadrilaterals[] = new Quadrilateral[4];
+        Point pointTriangleA = new Point(10,20);
+        Point pointTriangleB = new Point(13,25);
+        Point pointTriangleC = new Point(12,23);
+        Triangle triangle = new Triangle(pointTriangleA, pointTriangleB, pointTriangleC);
 
-        Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < quadrilaterals.length; i++) {
+        Point pointQuadrangleA = new Point(10,20);
+        Point pointQuadrangleB = new Point(15,22);
+        Point pointQuadrangleC = new Point(16,25);
+        Point pointQuadrangleD = new Point(1,24);
+        Quadrangle quadrangle = new Quadrangle(pointQuadrangleA, pointQuadrangleB, pointQuadrangleC, pointQuadrangleD);
 
-            Node nodes[] = new Node[4];
+        Square square = new Square(new Point(1,1), 5);
 
-            System.out.println("Enter coordinates (figure " + i  + "): ");
-            for (int j = 0; j < nodes.length; j++) {
-                System.out.println("Enter node " + j + " (x and y): ");
-                double x = scanner.nextDouble();
-                double y = scanner.nextDouble();
-                nodes[j] = new Node(x, y);
-            }
-            quadrilaterals[i] = new Quadrilateral(nodes[0], nodes[1], nodes[2], nodes[3]);
-        }
-        scanner.close();
+        Figure[] figures = new Figure[3];
+        figures[0] = triangle;
+        figures[1] = quadrangle;
+        figures[2] = square;
 
-        double maxPerimeter = Quadrilateral.getPerimetr(quadrilaterals);
+        System.out.println("Triangle: ");
+        figures[0].show();
 
-        System.out.println("Max perimeter: " + maxPerimeter);
+        System.out.println("\nQuadrangle: ");
+        figures[1].show();
+
+        System.out.println("\nSquare: ");
+        figures[2].show();
+
+        System.out.println("\nPerimeter of triangle: " + String.format("%.2f", figures[0].getPerimeter()));
+        System.out.println("Perimeter of quadrangle: " + String.format("%.2f", figures[1].getPerimeter()));
+        System.out.println("Perimeter of square: " + String.format("%.2f", figures[2].getPerimeter()));
 
     }
 }

@@ -11,7 +11,12 @@ public class Server {
 
 	public static void main(String[] args) {
 		
-		Persons persons = new Persons("List.xml");
+		Persons persons = new Persons("List.xml", "List.xld");
+		if (!persons.read()) {
+			System.out.println("Error! Cannot read file!");
+			return;
+		}
+
 		Users users = new Users("Users.xml");
 		
 		ServerCore serverCore = new ServerCore(7789, persons, users);
