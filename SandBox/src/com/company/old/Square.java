@@ -1,6 +1,6 @@
-package com.company;
+package com.company.old;
 
-public class Square extends Figure{
+public class Square extends Figure {
 
     private Point a;
     private Point b;

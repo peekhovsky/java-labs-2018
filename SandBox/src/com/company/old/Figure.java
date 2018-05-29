@@ -1,4 +1,4 @@
-package com.company;
+package com.company.old;
 
 public abstract class Figure {
     public abstract void show();

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.old;
 
 public class Point {
     private Double x;
@@ -23,6 +23,6 @@ public class Point {
     }
 
     public void show(){
-        System.out.println("x: " + x + ", y: " + y + ".");
+        System.out.println("x: " + x + ", y: " + y + "");
     }
 }
