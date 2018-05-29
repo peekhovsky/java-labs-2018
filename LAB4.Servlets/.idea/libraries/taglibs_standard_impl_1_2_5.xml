@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-impl-1.2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../java-labs-2018/apache-tomcat-7.0.86/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

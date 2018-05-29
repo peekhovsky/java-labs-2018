@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LAB4.Servlets.iml" filepath="$PROJECT_DIR$/LAB4.Servlets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
     </modules>
   </component>
 </project>
