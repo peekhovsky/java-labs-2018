@@ -1,5 +1,5 @@
 
-Time: 2018.05.15 10:58:15
+Time: 2018.08.24 13:31:34
 Ships in Ship Park: 10
 Goods in Manager Warehouse: 7
 Ships in Queue: 0
@@ -7,7 +7,7 @@ Mooring lines: 0
 Ships in mooring lines: 0
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:20
+Time: 2018.08.24 13:31:39
 Ships in Ship Park: 10
 Goods in Manager Warehouse: 7
 Ships in Queue: 0
@@ -15,7 +15,7 @@ Mooring lines: 0
 Ships in mooring lines: 0
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:25
+Time: 2018.08.24 13:31:44
 Ships in Ship Park: 10
 Goods in Manager Warehouse: 7
 Ships in Queue: 0
@@ -23,7 +23,7 @@ Mooring lines: 0
 Ships in mooring lines: 0
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:30
+Time: 2018.08.24 13:31:49
 Ships in Ship Park: 10
 Goods in Manager Warehouse: 7
 Ships in Queue: 0
@@ -31,242 +31,50 @@ Mooring lines: 0
 Ships in mooring lines: 0
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:35
+Time: 2018.08.24 13:31:54
+Ships in Ship Park: 10
+Goods in Manager Warehouse: 7
+Ships in Queue: 0
+Mooring lines: 0
+Ships in mooring lines: 0
+Goods in Port Warehouse: 11
+
+Time: 2018.08.24 13:31:59
 Ships in Ship Park: 9
-Goods in Manager Warehouse: 6
+Goods in Manager Warehouse: 7
 Ships in Queue: 0
 Mooring lines: 0
 Ships in mooring lines: 0
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:40
+Time: 2018.08.24 13:32:04
 Ships in Ship Park: 9
-Goods in Manager Warehouse: 6
+Goods in Manager Warehouse: 7
 Ships in Queue: 0
 Mooring lines: 1
 Ships in mooring lines: 1
 Goods in Port Warehouse: 11
 
-Time: 2018.05.15 10:58:45
+Time: 2018.08.24 13:32:09
 Ships in Ship Park: 9
-Goods in Manager Warehouse: 6
+Goods in Manager Warehouse: 7
 Ships in Queue: 0
 Mooring lines: 1
 Ships in mooring lines: 1
-Goods in Port Warehouse: 11
+Goods in Port Warehouse: 10
 
-Time: 2018.05.15 10:58:50
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 5
-Ships in Queue: 1
+Time: 2018.08.24 13:32:14
+Ships in Ship Park: 10
+Goods in Manager Warehouse: 8
+Ships in Queue: 0
 Mooring lines: 1
-Ships in mooring lines: 1
-Goods in Port Warehouse: 11
+Ships in mooring lines: 0
+Goods in Port Warehouse: 10
 
-Time: 2018.05.15 10:58:55
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 5
+Time: 2018.08.24 13:32:19
+Ships in Ship Park: 10
+Goods in Manager Warehouse: 8
 Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 2
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:00
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:05
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:10
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 4
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 2
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:15
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:20
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:25
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:30
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:35
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 4
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:40
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 4
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 2
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:45
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 4
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 2
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 10:59:50
-Ships in Ship Park: 8
-Goods in Manager Warehouse: 4
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 2
-Goods in Port Warehouse: 13
-
-Time: 2018.05.15 10:59:55
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 2
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:00
-Ships in Ship Park: 9
-Goods in Manager Warehouse: 5
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 1
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:05
-Ships in Ship Park: 3
-Goods in Manager Warehouse: 0
-Ships in Queue: 1
-Mooring lines: 10
-Ships in mooring lines: 3
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:10
-Ships in Ship Park: 1
-Goods in Manager Warehouse: 0
-Ships in Queue: 1
-Mooring lines: 10
-Ships in mooring lines: 8
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:15
-Ships in Ship Park: 3
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 7
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:20
-Ships in Ship Park: 1
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 7
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:25
-Ships in Ship Park: 0
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 9
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:30
-Ships in Ship Park: 2
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 8
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:35
-Ships in Ship Park: 3
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 7
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:40
-Ships in Ship Park: 4
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 6
-Goods in Port Warehouse: 13
-
-Time: 2018.05.15 11:00:45
-Ships in Ship Park: 4
-Goods in Manager Warehouse: 0
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 5
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:50
-Ships in Ship Park: 5
-Goods in Manager Warehouse: 1
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 5
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:00:55
-Ships in Ship Park: 5
-Goods in Manager Warehouse: 1
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 5
-Goods in Port Warehouse: 12
-
-Time: 2018.05.15 11:01:00
-Ships in Ship Park: 5
-Goods in Manager Warehouse: 1
-Ships in Queue: 0
-Mooring lines: 10
-Ships in mooring lines: 5
-Goods in Port Warehouse: 12
+Mooring lines: 1
+Ships in mooring lines: 0
+Goods in Port Warehouse: 10

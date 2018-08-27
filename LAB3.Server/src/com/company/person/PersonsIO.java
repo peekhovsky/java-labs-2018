@@ -92,6 +92,7 @@ public class PersonsIO {
 			if (prop.getNodeType() != Node.TEXT_NODE) {
 				
 				String propName = prop.getChildNodes().item(0).getTextContent();
+
 				System.out.println(propName);
 
 				if (prop.getNodeName().equals("id")) {
